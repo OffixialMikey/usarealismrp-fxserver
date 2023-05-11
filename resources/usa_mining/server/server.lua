@@ -1,15 +1,15 @@
 math.randomseed(os.time())
 
 local common = {
-    {name = "Bauxite", type = "misc", price = 175, legality = "legal", quantity = 1, weight = 5.0},
-    {name = "Copper", type = "misc", price = 125, legality = "legal", quantity = 1, weight = 10.0},
-    {name = "Iron", type = "misc", price = 200, legality = "legal", quantity = 1, weight = 15.0},
+    {name = "Bauxite", type = "misc", price = 135, legality = "legal", quantity = 1, weight = 5.0},
+    {name = "Copper", type = "misc", price = 105, legality = "legal", quantity = 1, weight = 10.0},
+    {name = "Iron", type = "misc", price = 150, legality = "legal", quantity = 1, weight = 15.0},
     {name = "Rock", type = "weapon", price = 50, hash = GetHashKey("WEAPON_ROCK"), weight = 5.0, quantity = 1 },
 }
 
 local rare = {
-    {name = "Diamond", type = "misc", price = 950, legality = "legal", quantity = 1, weight = 15.0},
-    {name = "Gold", type = "misc", price = 750, legality = "legal", quantity = 1, weight = 15.0},
+    {name = "Diamond", type = "misc", price = 750, legality = "legal", quantity = 1, weight = 15.0},
+    {name = "Gold", type = "misc", price = 550, legality = "legal", quantity = 1, weight = 15.0},
     {name = "Crude Oil", type = "misc", price = 450, legality = "legal", quantity = 1, weight = 15.0},
 }
 
